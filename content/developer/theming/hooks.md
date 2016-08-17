@@ -14,7 +14,7 @@ aliases:
 
 Themes can be imbued with the power of plugins via a special hooks php file. Using the hooks file, you can override existing functions in Vanilla, plug in to existing Vanilla events, and set data for your views.
 
-To use hooks, create a file named class.themehooks.php in your theme's root directory (/themes/your_theme_name/class.themehooks.php) and edit it there. Hooks files implement Gdn_IPlugin, which requires the specification of a setup method, which is run whenever the theme is enabled. The setup method is a good place to set any config variables your theme may rely on.
+To use hooks, create a file named class.your_theme_namethemehooks.php in your theme's root directory (/themes/your_theme_name/class.your_theme_namethemehooks.php) and edit it there. Hooks files implement Gdn_IPlugin, which requires the specification of a setup method, which is run whenever the theme is enabled. The setup method is a good place to set any config variables your theme may rely on.
 
 To get a better understanding of what the theme hooks are capable of, familiarize yourself with [custom events & handlers](http://docs.vanillaforums.com/developers/plugins/#custom-events-handlers), [magic events](http://docs.vanillaforums.com/developers/plugins/#magic-events), [function overrides](http://docs.vanillaforums.com/developers/plugins/#function-overrides), and [magic methods](http://docs.vanillaforums.com/developers/plugins/#magic-methods).
 
